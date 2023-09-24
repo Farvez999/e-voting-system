@@ -109,4 +109,4 @@ There is no single point of failure on a Blockchain as every node in the chain p
 
 ### Thank You
 
-### [Farvez Abdullah](https://blockchain-e-voting-system.netlify.app/)
+### [Farvez Abdullah](https://www.facebook.com/farvez101)
