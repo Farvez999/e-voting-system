@@ -10,7 +10,7 @@
 6. Roptsten
 7. Remix
 
-## [Live URL](https://web3-voting-app.netlify.app)
+## [Live URL](https://blockchain-e-voting-system.netlify.app/)
 
 ## Project Preview
 
@@ -20,12 +20,12 @@ Voting is one of the most popular example to illustrate the potentials of Blockc
 
 According to the Equal Justice Foundation, the 6 principles of voting are as follows.
 
--   **Secret Ballot**: Your vote is secret. Nobody should be able to link your vote back to your race, gender, age and personal profile.
--   **One man, one vote**: Every voter votes once and the voting system must be able to reconcile the total number of votes to the total number of voters and those who did not vote.
--   **Voter eligibility**: Only eligible voters are allowed to vote.
--   **Transparency**: The vote counting process is fixed, rules are well established,known to voters and withstands public scrutiny.
--   **Votes accurately recorded and counted**: Vote counting is consistent. Rules are cast in stone. Vote counts are audit-able.
--   **Reliability**: Voting system must be accurate and verifiable. Safeguards are in place to prevent frauds, accidents and security breeches.
+- **Secret Ballot**: Your vote is secret. Nobody should be able to link your vote back to your race, gender, age and personal profile.
+- **One man, one vote**: Every voter votes once and the voting system must be able to reconcile the total number of votes to the total number of voters and those who did not vote.
+- **Voter eligibility**: Only eligible voters are allowed to vote.
+- **Transparency**: The vote counting process is fixed, rules are well established,known to voters and withstands public scrutiny.
+- **Votes accurately recorded and counted**: Vote counting is consistent. Rules are cast in stone. Vote counts are audit-able.
+- **Reliability**: Voting system must be accurate and verifiable. Safeguards are in place to prevent frauds, accidents and security breeches.
 
 This application is covers all these principles. It is fully a Web3.0 Application where anyone can create a Poll or Voting and share `contract address` with others.
 
@@ -109,4 +109,4 @@ There is no single point of failure on a Blockchain as every node in the chain p
 
 ### Thank You
 
-### Rajan Gautam
+### [Farvez Abdullah](https://blockchain-e-voting-system.netlify.app/)
