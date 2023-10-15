@@ -16,7 +16,7 @@ import MailIcon from "@mui/icons-material/Mail";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import MoreIcon from "@mui/icons-material/MoreVert";
 import { useState } from "react";
-import { Divider, Drawer, Paper } from "@mui/material";
+import { Button, Divider, Drawer, Paper } from "@mui/material";
 import { Assessment, Create, HowToVote } from "@mui/icons-material";
 import { NavLink } from "react-router-dom";
 
@@ -188,15 +188,70 @@ export default function Appbar() {
                     </IconButton>
                     <NavLink to="/">
                         <Typography variant="h6" sx={{ display: { xs: "none", sm: "block" } }} color="white">
-                            Voting System
+                            E-Voting App
                         </Typography>
                     </NavLink>
-                    <Search>
+                    {/* <Search>
                         <SearchIconWrapper>
                             <SearchIcon />
                         </SearchIconWrapper>
                         <StyledInputBase placeholder="Search…" inputProps={{ "aria-label": "search" }} />
-                    </Search>
+                    </Search> */}
+
+
+
+
+                    <Box sx={{ display: "flex", justifyContent: "center", flexGrow: 12 }}>
+                        <Button
+                            size="large"
+                            aria-label="Create Ballot"
+                            color="inherit"
+                            sx={{
+                                padding: "8px", // Add padding
+                                '&:hover': {
+                                    backgroundColor: 'rgba(255, 255, 255, 0.1)', // Add hover color
+                                }
+                            }}
+                        >
+                            <NavLink to="/ballot" style={{ color: "white" }}>
+                                Create Ballot
+                            </NavLink>
+                        </Button>
+                        <Button
+                            size="large"
+                            aria-label="Voting"
+                            color="inherit"
+                            sx={{
+                                padding: "8px", // Add padding
+                                '&:hover': {
+                                    backgroundColor: 'rgba(255, 255, 255, 0.1)', // Add hover color
+                                }
+                            }}
+                        >
+                            <NavLink to="/voting" style={{ color: "white" }}>
+                                Voting
+                            </NavLink>
+                        </Button>
+                        <Button
+                            size="large"
+                            aria-label="Result"
+                            color="inherit"
+                            sx={{
+                                padding: "8px", // Add padding
+                                '&:hover': {
+                                    backgroundColor: 'rgba(255, 255, 255, 0.1)', // Add hover color
+                                }
+                            }}
+                        >
+                            <NavLink to="/result" style={{ color: "white" }}>
+                                Result
+                            </NavLink>
+                        </Button>
+                    </Box>
+
+
+
+
                     <Box sx={{ flexGrow: 1 }} />
                     <Box sx={{ display: { xs: "none", md: "flex" } }}>
                         <IconButton size="large" aria-label="new mails" color="inherit">
