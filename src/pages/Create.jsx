@@ -106,7 +106,7 @@ const Create = ({
 
     return (
         <Container>
-            <Box mt={4} mb={8} paddingX={6}>
+            <Box mt={4} pb={8} paddingX={6} >
                 {disable && (
                     <Box my={2}>
                         <Paper sx={{ padding: "0.6rem" }}>
@@ -116,7 +116,7 @@ const Create = ({
                         </Paper>
                     </Box>
                 )}
-                <Box my={2}>
+                <Box my={4}>
                     <Paper>
                         <Box py={1}>
                             <Typography variant="h4" fontWeight="bold" textAlign="center">
@@ -163,8 +163,10 @@ const Create = ({
                         </Box>
                     </Paper>
                 </Box>
+
+
                 {isAlreadyCreated && (
-                    <Box my={2}>
+                    <Box my={4}>
                         <Paper>
                             <Box py={1}>
                                 <Typography variant="h4" fontWeight="bold" textAlign="center">
@@ -225,7 +227,7 @@ const Create = ({
                 )}
 
                 {isAlreadyCreated && (
-                    <Box my={2}>
+                    <Box my={4}>
                         <Paper>
                             <Box py={1}>
                                 <Typography variant="h4" fontWeight="bold" textAlign="center">
@@ -282,7 +284,7 @@ const Create = ({
                     </Box>
                 )}
                 {isAlreadyCreated && (
-                    <Box my={2}>
+                    <Box my={4}>
                         <Paper sx={{ padding: "0.5rem" }}>
                             <Button
                                 variant="contained"

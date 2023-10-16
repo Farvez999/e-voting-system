@@ -17,8 +17,10 @@ import NotificationsIcon from "@mui/icons-material/Notifications";
 import MoreIcon from "@mui/icons-material/MoreVert";
 import { useState } from "react";
 import { Button, Divider, Drawer, Paper } from "@mui/material";
-import { Assessment, Create, HowToVote } from "@mui/icons-material";
+import { Assessment, Create, HowToVote, Groups2Icon } from "@mui/icons-material";
 import { NavLink } from "react-router-dom";
+import { RiTeamFill } from 'react-icons/ri';
+import { FcAbout } from 'react-icons/fc';
 
 const Search = styled("div")(({ theme }) => ({
     position: "relative",
@@ -79,6 +81,16 @@ export default function Appbar() {
             text: "Result",
             link: "/result",
             Icon: <Assessment />,
+        },
+        {
+            text: "Team",
+            link: "/team",
+            Icon: <RiTeamFill />,
+        },
+        {
+            text: "About",
+            link: "/about",
+            Icon: <FcAbout />,
         },
     ];
 
@@ -245,6 +257,38 @@ export default function Appbar() {
                         >
                             <NavLink to="/result" style={{ color: "white" }}>
                                 Result
+                            </NavLink>
+                        </Button>
+
+                        <Button
+                            size="large"
+                            aria-label="Team"
+                            color="inherit"
+                            sx={{
+                                padding: "8px", // Add padding
+                                '&:hover': {
+                                    backgroundColor: 'rgba(255, 255, 255, 0.1)', // Add hover color
+                                }
+                            }}
+                        >
+                            <NavLink to="/team" style={{ color: "white" }}>
+                                Team
+                            </NavLink>
+                        </Button>
+
+                        <Button
+                            size="large"
+                            aria-label="About"
+                            color="inherit"
+                            sx={{
+                                padding: "8px", // Add padding
+                                '&:hover': {
+                                    backgroundColor: 'rgba(255, 255, 255, 0.1)', // Add hover color
+                                }
+                            }}
+                        >
+                            <NavLink to="/about" style={{ color: "white" }}>
+                                About
                             </NavLink>
                         </Button>
                     </Box>

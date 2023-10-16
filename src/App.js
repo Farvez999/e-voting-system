@@ -165,7 +165,7 @@ const App = () => {
     }, [loadBlockchainData]);
 
     return (
-        <Box>
+        <Box style={{ background: 'radial-gradient(circle, rgba(83,207,240,1) 12%, rgba(0,212,255,1) 43%, rgba(99,92,208,1) 80%)' }}>
             <ToastContainer
                 position="top-right"
                 autoClose={5000}

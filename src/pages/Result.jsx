@@ -41,8 +41,8 @@ const Result = ({
     }, [getChoices, ballot, contract, getCurrentState]);
 
     return (
-        <Container>
-            <Box my={2}>
+        <Container style={{ height: '100vh' }}>
+            <Box my={4}>
                 <Paper>
                     <Box py={1}>
                         <Typography variant="h4" fontWeight="bold" textAlign="center">
