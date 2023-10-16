@@ -11,6 +11,8 @@ import { ABI } from "./data/Data";
 import Create from "./pages/Create";
 import Voting from "./pages/Voting";
 import Result from "./pages/Result";
+import About from "./pages/About";
+import Team from "./pages/Team";
 import Home from "./pages/Home";
 import Appbar from "./components/Appbar";
 
@@ -265,6 +267,9 @@ const App = () => {
                         />
                     }
                 />
+
+                <Route path="/team" element={<Team />} />
+                <Route path="/about" element={<About />} />
             </Routes>
             <Backdrop sx={{ color: "#fff", zIndex: (theme) => theme.zIndex.drawer + 1 }} open={loading}>
                 <CircularProgress color="inherit" />

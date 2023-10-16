@@ -83,3 +83,7 @@ body {
     filter: brightness(2);
     transform: translateY(10%) rotateX(81deg) scaleY(-1) translateY(-15%) scaleY(1.35);
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

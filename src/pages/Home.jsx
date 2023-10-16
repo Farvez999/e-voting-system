@@ -49,10 +49,12 @@ const Home = () => {
                 <h1 style={{ fontSize: 40, fontFamily: "monospace" }}>{greeting}</h1>
             </Grid>
 
-            <Grid style={{ textAlign: "center", marginTop: 80 }} item lg={12}>
+            <Grid style={{ textAlign: "center", marginTop: 50 }} item lg={12}>
                 <h3 style={{ fontSize: 70, fontFamily: "monospace" }}>Wellcome</h3>
                 <h3 style={{ fontSize: 50, fontFamily: "monospace" }}>Blockchain E-Voting System App</h3>
-                <img style={{ marginTop: 10 }} src={vote}></img>
+                <div data-aos="fade-right" className="flex justify-center items-center">
+                    <img style={{ marginTop: 10 }} src={vote}></img>
+                </div>
             </Grid>
         </Grid>
 
